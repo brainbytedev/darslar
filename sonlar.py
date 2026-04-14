@@ -36,5 +36,7 @@ print(f"{a} % {b} = {a % b}")
 print(f"{a} ** 2 = {a ** 2}")
 
 
-misol = '(5+9)*2**3'
-print(eval(misol))
+# misol = '(5+9)*2**3'
+# print(eval(misol))
+
+print('salom dunyo')
