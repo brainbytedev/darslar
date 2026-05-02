@@ -6,6 +6,10 @@
 
 # list = o'zgaruvchan, tabtiblangan, takrorlanuvchi ro'yxat
 # tuple = o'zgarmas, tabtiblangan, takrorlanuvchi ro'yxat
+# set = {1,1,1,1,1}
+# dict = {key:value}
+
+
 
 # pupil1 = 'Humoyun'
 # pupil2 = 'Muhammadrizo'
