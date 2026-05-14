@@ -1,4 +1,4 @@
-from wsgiref.util import request_uri
+
 
 
 def salomlash():
@@ -18,10 +18,10 @@ def kattani_top(a, b):
     else:
         return f"A va B sonlar teng {a} = {b}"
 
-a = int(input("A son: "))
-b = int(input("B son: "))
+# a = int(input("A son: "))
+# b = int(input("B son: "))
 
-print(kattani_top(a, b))
+# print(kattani_top(a, b))
 
 
 # print(max(45,65,5,4))
@@ -37,3 +37,48 @@ print(kattani_top(a, b))
 # salomlash_pro('Muhammadrizo')
 # salomlash_pro('Fatxullox')
 # salomlash_pro('Aziza')
+
+
+# name = input("Ruqiya")
+# print(name)
+
+
+
+# def maxi(a, b, c):
+#     if b < a > c:
+#         return a
+#     elif a < b > c:
+#         return b
+#     elif a < c > b:
+#         return c
+
+# print(max(452,600))
+# print(maxi(452,600))
+
+def maxi(*numbers):
+    katta = numbers[0]
+    for i in numbers:
+        if i > katta:
+            katta = i
+    return katta
+
+
+
+print(maxi(-1000,-2000))
+print(max(-1000,-2000))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
